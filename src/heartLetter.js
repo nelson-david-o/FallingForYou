@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
+import { Typed } from "react-typed";
 import "./HeartLetter.css";
 
 const HeartLetter = () => {
@@ -20,10 +21,11 @@ const HeartLetter = () => {
           <div className="front flap"></div>
           <div className="front pocket"></div>
           <div className="letter">
-            <div className="words line1"></div>
-            <div className="words line2"></div>
-            <div className="words line3"></div>
-            <div className="words line4"></div>
+            <div className="letter">
+              <p>
+                La mejor asistencia de la nena fuimos nosotros.
+              </p>
+            </div>
           </div>
           <div className="hearts">
             <div className="heart a1"></div>

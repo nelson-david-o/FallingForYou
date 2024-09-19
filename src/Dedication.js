@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Dedication.css";
 
+
 const Dedication = () => {
   return (
     <div className="card">

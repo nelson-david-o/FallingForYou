@@ -289,4 +289,13 @@ body {
 }
 
 
+.letter p {
+  font-size: 18px; /* Tamaño del texto */
+  font-family: 'Georgia', serif; /* Fuente de estilo carta */
+  color: #333; /* Color del texto */
+  text-align: center; /* Alinear el texto al centro */
+  margin: 0; /* Eliminar márgenes por defecto */
+  padding: 20px; /* Agregar padding alrededor del texto */
+  line-height: 1.5; /* Espaciado entre líneas */
+}
 
