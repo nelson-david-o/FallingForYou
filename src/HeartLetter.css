@@ -299,3 +299,11 @@ body {
   line-height: 1.5; /* Espaciado entre líneas */
 }
 
+.letter p {
+  font-family: 'Roboto', sans-serif; /* Cambiar a la fuente deseada */
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
