@@ -234,56 +234,35 @@
 .reset {
   text-align: center;
 }
-
 .reset button {
-  font-weight: 800;
-  font-style: normal;
-  transition: all 0.1s linear;
-  -webkit-appearance: none;
-  background-color: transparent;
-  border: solid 2px #1acd7a;
-  border-radius: 4px;
-  color: #ff5757;
-  display: inline-block;
-  font-size: 14px;
-  text-transform: uppercase;
-  margin: 5px;
-  padding: 10px;
-  line-height: 1em;
-  text-decoration: none;
-  min-width: 120px;
-  cursor: pointer;
+  font-weight: 700; /* Aumenta el peso de la fuente */
+  font-size: 16px; /* Tamaño de la fuente */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  color: white; /* Cambia el color del texto a blanco */
+  background-color: #b8fada35; /* Color de fondo azul claro */
+  border: none; /* Sin borde */
+  border-radius: 7px; /* Bordes redondeados */
+  padding: 10px 20px; /* Añadir padding para hacerlo más interactivo */
+  margin: 5px; /* Espaciado alrededor del botón */
+  cursor: pointer; /* Cambio de cursor al pasar sobre el botón */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra del botón */
+  transition: background-color 0.3s ease;
 }
 
 .reset button:hover {
-  background-color: #0faa62;
-  color: #115638;
+  background-color: #b8fada9a; /* Fondo azul más oscuro en hover */
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
 }
 
-.reset {
-  text-align: center;
+.reset button:active {
+  background-color: #1c6391; /* Color más oscuro cuando se hace clic */
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4); /* Sombra más pequeña al hacer clic */
 }
 
-.reset button {
-  font-weight: 700;
-  font-size: 16px;
-  text-transform: uppercase;
-  color: #effef7;
-  /* background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
-  border: none;
-  border-radius: 35px;
-  /* padding: 10px 20px; */
-  margin: 5px;
-  cursor: pointer;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s ease, box-shadow 0.3s ease;
+.reset button:focus {
+  outline: none; /* Quitar el borde de enfoque predeterminado */
 }
 
-.reset button:hover {
-  background: linear-gradient(120deg, #c2e9fb 0%, #a1c4fd 100%);
-  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
-  
-}
 
 
 .letter p {

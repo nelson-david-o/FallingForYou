@@ -34,10 +34,21 @@ const HeartLetter = () => {
         </div>
       </div>
       <div className="reset">
-        <button onClick={handleOpen}>Open</button>
-        <button onClick={handleReset}>Reset</button>
+      <button onClick={handleOpen}>
+          <i className="fas fa-envelope-open"></i>
+        </button>
+        <button onClick={handleReset}>
+          <i className="fas fa-redo"></i>
+        </button>
         <Link to="/dedication">
-          <button>Unas palabras</button>
+          <button>
+            <i className="fas fa-heart"></i>
+          </button>
+        </Link>
+        <Link to="/carousel">
+          <button>
+            <i className="fas fa-images"></i>
+          </button>
         </Link>
       </div>
     </div>

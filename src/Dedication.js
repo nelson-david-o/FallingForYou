@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Dedication.css";
 
-
 const Dedication = () => {
   return (
     <div className="card">
@@ -23,9 +22,7 @@ const Dedication = () => {
         </svg>
       </div>
       <div className="body-text">
-        <p className="typing">
-          Te amo mucho con bastante!
-        </p>
+        <p className="typing">Te amo mucho con bastante!</p>
         <div className="author">
           - Tu Gordis.
           <svg
@@ -38,7 +35,9 @@ const Dedication = () => {
             <path d="M16.5 3C19.538 3 22 5.5 22 9c0 7-7.5 11-10 12.5C9.5 20 2 16 2 9c0-3.5 2.5-6 5.5-6C9.36 3 11 4 12 5c1-1 2.64-2 4.5-2z"></path>
           </svg>
         </div>
-        <Link to="/">Volver al Sobre</Link>
+        <Link to="/">
+          <button className="back-button">Volver</button>
+        </Link>
       </div>
     </div>
   );
